@@ -1,0 +1,166 @@
+/*MD*/
+.crate {
+	min-height: 20px;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 0;
+	border-radius: 2px;
+	background-color: #FFF;
+	color: #999;
+	-webkit-box-shadow: 0px 0px 6px -1px rgba(0,0,0,0.47);
+	-moz-box-shadow: 0px 0px 6px -1px rgba(0,0,0,0.47);
+	box-shadow: 0px 0px 6px -1px rgba(0, 0, 0, 0.47);
+}
+
+.crate h3 {
+	line-height: normal;
+	padding-top: 3px;
+	color: #999;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-transform: none;
+	background-color: #EBEBEB;
+	line-height: 25px;
+	padding-left: 10px;
+}
+
+header .container_12 .crate, footer .container_12 .crate {
+	border: 0;
+	background-color: transparent !important;
+	background: none;
+	margin-bottom: 0;
+	box-shadow: none;
+}
+
+/*NV*/
+#hor_nav {
+	min-height: 55px;
+}
+
+#hor_nav, #hor_nav .menu a {
+	line-height: 55px;
+}
+
+#hor_nav .menu ul {
+	background-color: #3B7BB9;
+}
+
+#hor_nav .menu > li > a:hover, #hor_nav .menu > li.sfHover > a, #hor_nav .menu > .active > a, #hor_nav .active > a:hover, #hor_nav .active > a:hover {
+	background-color: #3B7BB9;
+	color: #FFF;
+}
+
+#hor_nav .menu ul li > a:hover, #hor_nav .menu ul li > .active > a, #hor_nav ul li.active > a {
+	background-color: #3B7BB9;
+	color: #FFF;
+}
+
+#hor_nav li a {
+	border-right: 2px solid #FFF;
+}
+
+#hor_nav .deeper.parent ul li a {
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	color: #FFF;
+}
+
+/*GN*/
+header {
+}
+
+main {
+}
+
+footer {
+	padding-top: 10px;
+}
+
+#wrap .container_12 {
+}
+
+body h1, body h2, body h3, body h4, body h5, body h6 {
+	line-height: normal;
+	margin-bottom: 0.3em;
+	text-transform: none;
+	font-size: 17px;
+}
+
+ul.actions {
+	float: right;
+}
+
+/*SL*/
+#wowslider-container1 {
+	margin-bottom: 10px;
+}
+
+#wowslider-container1 .ws-title {
+	line-height: normal;
+	bottom: 0;
+}
+
+/*SR*/
+.search label {
+	display: none !important;
+}
+
+.search input {
+	color: #FFFFFF;
+	border-radius: 0;
+	line-height: normal;
+	background-color: #FFFFFF;
+	border: 0;
+	margin-bottom: 0;
+	box-shadow: none;
+	float: right;
+}
+
+/*CP*/
+.copr {
+	margin-bottom: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.copr a {
+	text-decoration: underline;
+}
+
+/*LG*/
+.site-title {
+	font-size: 35px;
+	font-weight: bold;
+	color: #333333;
+}
+
+.site-description {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/*XM*/
+body {
+	background-color: #EEEEEE;
+}
+
+#wrap {
+	padding: 20px;
+	background-color: #FFF;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+
+header .container_12, footer .container_12 {
+	color: #999;
+	background-color: #F6F6F6 !important;
+}
+
+#hor_nav {
+	background-color: #DDDDDD;
+	margin-bottom: 10px;
+}

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+<name>at_conubia_free</name>
+<version>3.4</version>
+<creationDate>2015</creationDate>
+<author>atjoomla</author>
+<authorEmail>info@atjoomla.com</authorEmail>
+<authorUrl>http://www.atjoomla.com</authorUrl>
+<copyright>copyright (c) 2006-2015 - atjoomla.com</copyright>
+<license>GNU/GPL v2 http://www.gnu.org/licenses/gpl-2.0.html</license>
+<description>
+<![CDATA[
+<link href="../templates/at_conubia_free/css/admin.css" rel="stylesheet" type="text/css" media="all" />
+<div class="temp_description">
+<p>AT Conubia Free. Bootstrap Joomla! template three columns layout. Click here for <a href="http://demo3.atjoomla.com/?template=at_conubia" target="_blank">Demo</a>. NOTICE: FREE VERSION does not include all features of  <a href="http://atjoomla.com/at-conubia" target="_blank">PRO VERSION</a></p>
+</div>
+<p></p>
+<img src="../templates/at_conubia_free/template_thumbnail.png" border="0" title="" alt=""/>
+<p></p>
+]]>
+</description>
+<files>
+<filename>index.php</filename>
+<filename>component.php</filename>
+<filename>template_thumbnail.png</filename>
+<filename>templateDetails.xml</filename>
+<folder>images</folder>
+<folder>css</folder>
+<folder>html</folder>
+<folder>language</folder>
+</files>
+<positions>
+<position>left</position>
+<position>right</position>
+<position>header_top1</position>
+<position>header_top2</position>
+<position>navigation</position>
+<position>bottom1</position>
+<position>bottom2</position>
+<position>bottom3</position>
+<position>bottom4</position>
+<position>footer</position>
+<position>footer1</position>
+<position>footer2</position>
+<position>footer3</position>
+<position>footer4</position>
+</positions>
+<languages folder="language">
+<language tag="en-GB">en-GB/en-GB.tpl_at_conubia_free.ini</language>
+</languages>
+<config>
+
+<fields name="params">
+
+<fieldset name="gener_par" label="General">
+
+<!-- TEMPLATE COLOR  -->
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt; TEMPLATE COLOR&lt;/div&gt;" />
+<field name="CssStyle" type="list" default="default" label="Styles" description="Edit template color style">
+<option value="default">Default</option>
+<option value="style1">Style1</option>
+<option value="style2">Style2</option>
+<option value="style3">Style3</option>
+<option value="style4">Style4</option>
+</field>
+
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt; Logo Configuration &lt;/div&gt;" />
+<field name="logoFile" type="media" default="" label="Logo Image" description="Upload your logo image" />
+<field name="sitetitle"  type="text" default="" label="Logo Text" description="Site Name (Add your site name here to disable logo image)" filter="string" />
+<field name="sitedescription"  type="text" default="" label="Slogan" description="Site Slogan (Add your slogan here, in case like to use it as text)" filter="string" />
+
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt; Footer &lt;/div&gt;" />
+<field name="comp_info" label="Your Site Information" type="textarea" filter="safehtml"  cols="30" rows="5" default="" description="edit footer site information, HTML allowed so you can add links as well" />
+</fieldset>
+
+<!-- SLIDESHOW -->
+<fieldset name="slideshow_parameters" label="Slideshow">
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt; Slideshow Setup &lt;/div&gt;" />
+<field name="menuid" type="menuitem"  multiple="true" size="10" default="0" label="Slideshow Menut Items" description="Select menu items where the slideshow should show up" >
+<option value="0">Select Items</option>
+</field>
+
+<field name="slideshow_effect" type="list" default="basic_linear" label="Slideshow Transitions" description="Choose slideshow effect">
+<option value="basic_linear">basic</option>
+</field>
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt;Slide 1&lt;/div&gt;" />
+<field name="Image1" label="Image 1" type="media" description="Upload Image" />
+<field name="Link1" label="Link 1" type="text" description="Add here image URL" />
+<field name="Slidetext1" label="Slidetext 1" type="textarea" filter="safehtml"  cols="30" rows="5" default="" description="add image caption here. html allowed" />
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt;Slide 2&lt;/div&gt;" />
+<field name="Image2" label="Image 2" type="media"  description="Upload Image" />
+<field name="Link2" label="Link 2" type="text" description="Add here image URL" />
+<field name="Slidetext2" label="Slidetext 2" type="textarea" filter="safehtml"  cols="30" rows="5" default="" description="add image caption here. html allowed" />
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt;Slide 3&lt;/div&gt;" />
+<field name="Image3" label="Image 3" type="media" description="Upload Image" />
+<field name="Link3" label="Link 3" type="text" description="Add here image URL" />
+<field name="Slidetext3" label="Slidetext 3" type="textarea" filter="safehtml"  cols="30" rows="5" default="" description="add image caption here. html allowed" />
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt;Slide 4&lt;/div&gt;" />
+<field name="Image4" label="Image 4" type="media" description="Upload Image" />
+<field name="Link4" label="Link 4" type="text" description="Add here image URL" />
+<field name="Slidetext4" label="Slidetext 4" type="textarea" filter="safehtml"  cols="30" rows="5" default="" description="add image caption here. html allowed" />
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt;Slide 5&lt;/div&gt;" />
+<field name="Image5" label="Image 5" type="media" description="Upload Image" />
+<field name="Link5" label="Link 5" type="text" description="Add here image URL" />
+<field name="Slidetext5" label="Slidetext 5" type="textarea" filter="safehtml"  cols="30" rows="5" default="" description="add image caption here. html allowed" />
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt;Slide 6&lt;/div&gt;" />
+<field name="Image6" label="Image 6" type="media" description="Upload Image" />
+<field name="Link6" label="Link 6" type="text" description="Add here image URL" />
+<field name="Slidetext6" label="Slidetext 6" type="textarea" filter="safehtml"  cols="30" rows="5" default="" description="add image caption here. html allowed" />
+</fieldset>
+
+<!-- SOCIALMEDIA  -->
+<fieldset name="social_media" label="SocialMedia">
+<field type="spacer" name="&lt;div class=&quot;sub-heading&quot;&gt;Social-Media Links&lt;/div&gt;" />
+<field name="display_social_links" type="list" default="no" label="Socialmedia" description="Enable or disable socialmedia links here">
+<option value="yes">Enable</option>
+<option value="no">Disable</option>
+</field>
+
+<field name="item_twitter_sw" type="list" default="1" label="Twitter" description="Enable Twitter Yes/No">
+<option value="0">No</option>
+<option value="1">Yes</option>
+</field>
+<field name="item_twitter" type="text" size="60" default="https://twitter.com/" label="Your Twitter Url" description="Twitter URL" />
+
+<field name="item_facebook_sw" type="list" default="1" label="Facebook" description="Enable Facebook Yes/No">
+<option value="0">No</option>
+<option value="1">Yes</option>
+</field>
+<field name="item_facebook" type="text" size="60" default="https://www.facebook.com/" label="Your Facebook Url" description="Facebook URL" />
+
+<field name="item_google_sw" type="list" default="1" label="Google" description="Enable Google Yes/No">
+<option value="0">No</option>
+<option value="1">Yes</option>
+</field>
+<field name="item_google" type="text" size="60" default="https://plus.google.com/" label="Your Google Url" description="Google URL" />
+
+<field name="item_myspace_sw" type="list" default="1" label="MySpace" description="Enable MySpace Yes/No">
+<option value="0">No</option>
+<option value="1">Yes</option>
+</field>
+<field name="item_myspace" type="text" size="60" default="http://www.myspace.com/" label="Your MySpace Url" description="MySpace URL" />
+
+<field name="item_linkedin_sw" type="list" default="1" label="LinkedIn" description="Enable LinkedIn Yes/No">
+<option value="0">No</option>
+<option value="1">Yes</option>
+</field>
+<field name="item_linkedin" type="text" size="60" default="http://www.linkedin.com/" label="Your LinkedIn Url" description="LinkedIn URL" />
+
+<field name="item_blogger_sw" type="list" default="1" label="Youtube" description="Enable Youtube Yes/No">
+<option value="0">No</option>
+<option value="1">Yes</option>
+</field>
+<field name="item_blogger" type="text" size="60" default="http://www.youtube.com/" label="Your Youtube Url" description="Youtube URL" />
+
+<field name="item_flickr_sw" type="list" default="0" label="Vimeo" description="Enable Vimeo Yes/No">
+<option value="0">No</option>
+<option value="1">Yes</option>
+</field>
+<field name="item_flickr" type="text" size="60" default="http://www.vimeo.com/" label="Your Vimeo Url" description="Vimeo URL" />
+
+<field name="item_rssfeed_sw" type="list" default="0" label="RSS Feed" description="Enable RSS Feed Yes/No">
+<option value="0">No</option>
+<option value="1">Yes</option>
+</field>
+<field name="item_rssfeed" type="text" size="60" default="index.php" label="Your RSS Feed Url" description="RSS Feed URL" />
+
+<field name="item_stumble_sw" type="list" default="1" label="Skype" description="Enable Skype Yes/No">
+<option value="0">No</option>
+<option value="1">Yes</option>
+</field>
+<field name="item_stumble" type="text" size="60" default="http://www.skype.com/" label="Your Skype Url" description="Skype URL" />
+</fieldset>
+
+</fields>
+</config>
+</extension>
+

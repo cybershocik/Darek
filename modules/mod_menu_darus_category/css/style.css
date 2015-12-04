@@ -1,0 +1,53 @@
+#Menu_C {
+    font-size:13px;
+    font-color:red;
+    text-decoration: none;
+}
+
+#main_menu{
+    background: #B7BABD;
+    color:#F7F4F4;
+    height:35px;
+    width:300px;
+    font-size:15px;
+    padding-left:10px;
+    display: table-cell;
+    vertical-align:middle;
+}
+
+#Menu_C a {
+    text-decoration: none;
+    color: black;
+}
+
+#Menu_C a:hover {
+    font-size: 13px;
+    color: red;
+    text-decoration: none;
+    background:none;
+    overflow-x: hidden !important;
+}
+
+#Menu_C li {
+    color:black;
+    line-height: 30px;
+}
+
+#bottom_menu{
+    width:100%;
+    border-bottom: 1px solid #B7BABD;
+}
+
+ul.menu a{
+    text-shadow: none;
+    font-size:13px;
+}
+
+ul.menu,ul.menu ul {
+    margin-bottom: 2px;
+
+}
+body ul{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}

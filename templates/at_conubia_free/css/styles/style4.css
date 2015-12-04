@@ -1,0 +1,18 @@
+A, .site-description
+{
+	color: #FFAA22;
+}
+#hor_nav .menu UL
+{
+	background-color: #FFAA22;
+}
+#hor_nav .menu > LI > A:hover, #hor_nav .menu > LI.sfHover > A, #hor_nav .menu > .active > A, #hor_nav .active > A:hover, #hor_nav .active > A:hover
+{
+	background-color: #FFAA22;
+	color: #FFF;
+}
+#hor_nav .menu UL LI > A:hover, #hor_nav .menu UL LI > .active > A, #hor_nav UL LI.active > A
+{
+	background-color: #FFAA22;
+	color: #FFF;
+}

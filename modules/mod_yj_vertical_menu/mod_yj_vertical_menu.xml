@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="2.5"
+	client="site"
+	method="upgrade">
+	<name>YJ Vertical Menu</name>
+	<author>Youjoomla.com</author>
+	<creationDate>9-18-2013</creationDate>
+	<copyright>Copyright (C) 2005 - 2013 Youjoomla.com. All rights reserved.</copyright>
+	<license>GNU/GPL</license>
+	<authorUrl>www.youjoomla.com</authorUrl>
+	<version>1.0</version>
+	<description>
+		<![CDATA[<style type="text/css" media="all">#holdthem{font-family: Arial Narrow,sans-serif;text-align:left;}#wrap1 {padding:0px 0px 4px 0px;}h1 {clear:both;font-family: Arial Narrow,sans-serif;font-size:18px;margin:0px 0px 12px 0px;padding:0px 0px 1px 10px;color:#C64934;}.wrap2 {background:#fff;}</style><div id="holdthem"><h1>YJ Vertical Menu for Joomla! 2.5.x and UP</h1><div class="wrap2"><a title="Visit the official website!" href="http://www.youjoomla.com"> <img style="float:left;border:1px solid #CFCFCF;margin:0px 15px 4px 22px;" src="../modules/mod_yj_vertical_menu/images/yj_extensions.jpg" border="0" alt="Logo" /></a>]]>
+	</description>
+	<files>
+		<filename module="mod_yj_vertical_menu">mod_yj_vertical_menu.php</filename>
+		<folder>css</folder>
+		<folder>src</folder>
+		<folder>tmpl</folder>
+		<folder>images</folder>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>
+		<filename>mod_yj_vertical_menu.xml</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.mod_yj_vertical_menu.ini</language>
+		<language tag="en-GB">en-GB.mod_yj_vertical_menu.sys.ini</language>
+	</languages>
+	<help key="JHELP_EXTENSIONS_MODULE_MANAGER_MENU" />
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="menutype"
+					type="menu"
+					label="MOD_YJ_VERTICAL_MENU_FIELD_MENUTYPE_LABEL"
+					description="MOD_YJ_VERTICAL_MENU_FIELD_MENUTYPE_DESC" />
+				<field
+					name="startLevel"
+					type="list"
+					default="1"
+					label="MOD_YJ_VERTICAL_MENU_FIELD_STARTLEVEL_LABEL"
+					description="MOD_YJ_VERTICAL_MENU_FIELD_STARTLEVEL_DESC"
+				>
+					<option value="1">J1</option>
+					<option value="2">J2</option>
+					<option value="3">J3</option>
+					<option value="4">J4</option>
+					<option value="5">J5</option>
+					<option value="6">J6</option>
+					<option value="7">J7</option>
+					<option value="8">J8</option>
+					<option value="9">J9</option>
+					<option value="10">J10</option>
+				</field>
+				<field
+					name="endLevel"
+					type="list"
+					default="0"
+					label="MOD_YJ_VERTICAL_MENU_FIELD_ENDLEVEL_LABEL"
+					description="MOD_YJ_VERTICAL_MENU_FIELD_ENDLEVEL_DESC"
+					>
+					<option value="0">JALL</option>
+					<option value="1">J1</option>
+					<option value="2">J2</option>
+					<option value="3">J3</option>
+					<option value="4">J4</option>
+					<option value="5">J5</option>
+					<option value="6">J6</option>
+					<option value="7">J7</option>
+					<option value="8">J8</option>
+					<option value="9">J9</option>
+					<option value="10">J10</option>
+				</field>
+				<field
+					name="showAllChildren"
+					type="radio"
+					default="1"
+					label="MOD_YJ_VERTICAL_MENU_FIELD_ALLCHILDREN_LABEL"
+					description="MOD_YJ_VERTICAL_MENU_FIELD_ALLCHILDREN_DESC">
+					<option
+						value="0">JNO</option>
+					<option
+						value="1">JYES</option>
+				</field>
+				<field
+					name="flyoutPosition"
+					type="radio"
+					default="right"
+					label="Flyouts position"
+					description="Select default position of menu flyouts">
+					<option
+						value="left">Left</option>
+					<option
+						value="right">Right</option>
+				</field>
+				<field
+					name="defaultWidth"
+					type="text"
+					label="Menu width"
+					default="250px"
+					description="Define default menu width in px" />
+				<field
+					name="showDuration"
+					type="text"
+					label="Show Durration"
+					default="350"
+					description="Timeframe needed to show the flyout. Defined in milliseconds." />
+				<field
+					name="hideDuration"
+					type="text"
+					label="Hide Durration"
+					default="500"
+					description="Timeframe needed to hide the flyout. Defined in milliseconds." />
+			</fieldset>
+			<fieldset
+				name="advanced">
+				<field
+					name="class_sfx"
+					type="text"
+					label="MOD_YJ_VERTICAL_MENU_FIELD_CLASS_LABEL"
+					description="MOD_YJ_VERTICAL_MENU_FIELD_CLASS_DESC" />
+				<field
+					name="window_open"
+					type="text"
+					label="MOD_YJ_VERTICAL_MENU_FIELD_TARGET_LABEL"
+					description="MOD_YJ_VERTICAL_MENU_FIELD_TARGET_DESC" />
+				<field
+					name="layout"
+					type="modulelayout"
+					label="JFIELD_ALT_LAYOUT_LABEL"
+					description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+				<field
+					name="moduleclass_sfx"
+					type="text"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+				<field
+					name="cache"
+					type="list"
+					default="1"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					description="COM_MODULES_FIELD_CACHING_DESC">
+					<option
+						value="1">JGLOBAL_USE_GLOBAL</option>
+					<option
+						value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+				<field
+					name="cache_time"
+					type="text"
+					default="900"
+					label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+					description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+				<field
+					name="cachemode"
+					type="hidden"
+					default="itemid">
+					<option
+						value="itemid"></option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

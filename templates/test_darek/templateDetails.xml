@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN"
+ "http://dev.joomla.org/xml/1.5/template-install.dtd">
+<extension version="3.5" type="template" client="site" method="upgrade">
+	<name>mynewtemplate</name>
+	<creationDate>2015-11-11</creationDate>
+	<author>Dariusz</author>
+	<authorEmail>info@comel.net.pl</authorEmail>
+	<authorUrl>www.comel.net.pl</authorUrl>
+	<copyright>Dariusz 2015</copyright>
+	<license>GNU/GPL</license>
+	<version>1.0.2</version>
+	<description>My New Template</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>images/background.png</filename>
+		<filename>css/css.css</filename>
+	</files>
+	<positions>
+		<position>breadcrumb</position>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>footer</position>
+	</positions>
+</install>

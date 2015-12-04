@@ -1,0 +1,52 @@
+#Menu_C {
+    font-size:13px;
+    font-color:red;
+    text-decoration: none;
+    background: #DEDEDE;
+
+}
+#main_menu{
+    background: #545454;
+    color:#DEDEDE;
+    height:35px;
+    width:300px;
+    font-size:15px;
+    padding-left:10px;
+    display: table-cell;
+    vertical-align:middle;
+}
+
+#Menu_C a {
+    text-decoration: none;
+}
+
+#Menu_C a:hover {
+    font-size: 13px;
+    color: red;
+    text-decoration: none;
+    background:none;
+    overflow-x: hidden !important;
+}
+
+#Menu_C li {
+    padding-left:0px;
+    list-style-type: none;
+    color:blue;
+    border-bottom: 1px solid black;
+    margin: 0px 0px 1.5em 12px;
+}
+
+ul.menu a{
+    text-shadow: none;
+    font-size:13px;
+}
+
+ul.menu a:link,ul.menu a:visited {
+    color: white;
+    margin: 0px 0px 1.5em 12px;
+}
+
+body ul{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}

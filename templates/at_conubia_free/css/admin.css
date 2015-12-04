@@ -1,0 +1,125 @@
+.heading
+{
+	background: #960b10 !important;
+	display: block;
+	padding: 5px;
+	font-weight: bold;
+	color: #fff;
+	border-radius: 2px;
+	font-size: 11px;
+	text-transform: none;
+	line-height: 24px;
+}
+.sub-heading
+{
+	background: #FFF !important;
+	display: block;
+	padding: 5px;
+	font-weight: bold;
+	color: #3b7bb9;
+	border-radius: 0px;
+	font-size: 11px;
+	text-transform: none;
+	line-height: 24px;
+	border-bottom: 4px solid #3b7bb9;
+}
+
+.nav-tabs
+{
+border-bottom: 1px solid #3b7bb9;
+}
+.temp_description 
+{
+border: 2px solid #eee;
+padding: 10px;
+color: #666;
+}
+.tab-content
+{
+border: 2px solid #eee;
+padding: 10px;
+}
+
+
+ul#myTabTabs.nav.nav-tabs:before,
+ul#myTabTabs.nav.nav-tabs:hover:before,
+ul#myTabTabs.nav.nav-tabs a[href="#details"]:before,
+ul#myTabTabs.nav.nav-tabs a[href="#attrib-style"]:before,
+ul#myTabTabs.nav.nav-tabs a[href="#attrib-logo"]:before,
+ul#myTabTabs.nav.nav-tabs a[href="#attrib-mobile"]:before,
+ul#myTabTabs.nav.nav-tabs a[href="#attrib-suffix"]:before,
+ul#myTabTabs.nav.nav-tabs a[href="#attrib-analytics"]:before,
+ul#myTabTabs.nav.nav-tabs a[href="#assignment"]:before {
+
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  line-height: normal;
+  vertical-align: baseline;
+  background-image: none !important;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  position: relative;
+  padding-right: 10px;
+  color: #444;
+  font-size: 11px;
+  text-transform: none;
+}
+
+div#myTabContent .span6 {
+  margin-top: 14px;
+  margin-left: 0;
+  width: 100%;
+}
+ul#myTabTabs.nav.nav-tabs li a {
+  border-top: 1px solid #3b7bb9;
+  border-left: 1px solid #3b7bb9;
+  border-right: 1px solid #3b7bb9;
+  padding: 7px 14px;
+  line-height: 24px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  border-radius: 2px;
+  background: #ffffff;
+  color: #3b7bb9;
+  font-weight: bold;
+  font-size: 11px;
+  text-transform: none;
+ 
+}
+ul#myTabTabs.nav.nav-tabs li.active a,
+ul#myTabTabs.nav.nav-tabs > li a:hover {
+  background: #fff;
+  color: #3b7bb9;
+  border: 0;
+  border-radius: 0;
+}
+ul#myTabTabs.nav.nav-tabs a:hover:before,
+ul#myTabTabs.nav.nav-tabs li.active a:before {
+  color: #fff;
+  border-radius: 2px;
+}
+
+div#myTabContent .control-group hr { border-top: 1px solid #dddddd; border-bottom: 1px solid #ffffff; width: 38em; }
+div#myTabContent .control-label { width: 20em; }
+div#myTabContent textarea { width: 400px; }
+
+@media handheld, only screen and (max-width: 800px) {
+
+  ul#myTabTabs.nav.nav-tabs {
+    border: 0px none;
+  }
+  ul#myTabTabs.nav.nav-tabs > li {
+    float: none;
+  }
+  ul#myTabTabs.nav.nav-tabs li a,
+  ul#myTabTabs.nav.nav-tabs li.active a,
+  ul#myTabTabs.nav.nav-tabs > li a:hover {
+    border-radius: 0;
+  }
+  ul#myTabTabs.nav.nav-tabs li a {
+    background-color: #fff;
+  }
+
+}
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5.0">
+    <name>mod_menu_darus_category</name>
+    <creationDate>November 2015</creationDate>
+    <author>Dariusz</author>
+    <authorUrl>Dariusz</authorUrl>
+   <copyright>Dariusz</copyright>
+    <license>GNU/GPL</license>
+    <version>1.0.0.0</version>
+    <description>Wyświetla dwupoziomową listę kategorii VirtueMart.Do współpracy z menu rozwijanym. </description>
+    <files>
+	<filename module="mod_menu_darus_category">mod_menu_darus_category.php</filename>
+	<filename>tmpl/default.php</filename>
+	<filename>css/style.css</filename>
+	<folder>fieldss</folder>
+    </files>
+    <config>
+	<fields name = "params" addfieldpath="/modules/mod_menu_darus_category/fields">
+	    <fieldset name="basic" >
+		<field name="nazwa_menu" type="text" label="Nazwa Menu" description="nazwa_menu"/>
+		<field name="Parent_Category_id" type="vmcountries"  value_field="category_name" label="Kategoria nadrzędna." description="Wybierz kategorię nadrzedna do wyświetlania w menu." />
+        <field name="level" type="text" default="2" value_field="level" label="Poziom menu" description="Poziom Menu" />
+
+		<field name="cache" type="list"
+					default="1"
+					label="Pamięć podręczna"
+					description="Pamięć podręczna"
+				>
+            <option value="0">Nie</option>
+            <option value="1">Tak</option>
+		</field>
+	</fieldset>
+	</fields>
+    </config>
+    <updateservers>
+        <!-- Note: No spaces or linebreaks allowed between the server tags -->
+       <!-- <server type="extension" name="VirtueMart3 mod_virtuemart_category Update Site"><![CDATA[http://virtuemart.net/releases/vm3/mod_virtuemart_category_update.xml]]></server> -->
+    </updateservers>
+</extension>
